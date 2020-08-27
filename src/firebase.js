@@ -1,7 +1,7 @@
 import * as firebase from 'firebase/app';
 import 'firebase/firestore';
 
-const app = firebase.initialiseApp({
+const app = firebase.initializeApp({
     apiKey: "AIzaSyCzCCcrdSDZSXBSXYg2jyB8pPTXN47lN6E",
     authDomain: "liveauction-9864b.firebaseapp.com",
     databaseURL: "https://liveauction-9864b.firebaseio.com",
